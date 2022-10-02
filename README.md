@@ -2,7 +2,8 @@
 
 By copy pasting in HTML data from the sites the parsers will convert it into matches with different betting lines. Then it will compare the different matches for the bets you want to place and return the best ones. I have anonymized the site data and removed the HTML. Because of this, this version will not actually run, but here is some sample output
 
-I spent 2 weeks on the script because I wanted to get it ready for the start of the NFL season. A lot of very lucrative promotions started at that time and so it is very no frils. You can see the other read me for more insight into my though process
+I spent 2 weeks on the script because I wanted to get it ready for the start of the NFL season. A lot of very lucrative promotions started at that time and so this script was very barebones, time is money :) 
+
 
 ### Insured Bet
 
