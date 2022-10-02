@@ -107,7 +107,7 @@ $615.38 @ -160 on white sox+1.5
 Profit: 134.62
 
 
-# Commands to periodically update the html text for others to test with :)
+### Commands to periodically update the html text for others to test with :)
 
 git update-index --skip-worktree html/site_1.txt
 git update-index --skip-worktree html/site_3.txt
