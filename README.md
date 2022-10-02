@@ -12,7 +12,7 @@ It is very barebones because I wanted to get it ready for the start of the NFL s
 
 To run this simply run site_parser.py
 
-# Introduction
+### Introduction
 
 This was version 2 of my attempt to automate betting. This had a heavy focus on finding good hedges betweens scraped data while my other v1 version was primarily focused on computing the odds you need to look for.
 I plan on doing a version 3 that will combine the more advanced math of v1 with the increased automation of v2
