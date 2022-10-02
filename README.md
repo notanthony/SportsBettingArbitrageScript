@@ -6,6 +6,40 @@ By copy pasting in HTML data from the sites the parsers will convert it into mat
 
 It is very barebones because I wanted to get it ready for the start of the NFL season (You can see my github history starting August 26 2022.) A lot of very lucrative promotions started at that time and so time was money :)
 
+# V2 Matching
+
+### RUN
+
+To run this simply run site_parser.py
+
+# Introduction
+
+This was version 2 of my attempt to automate betting. This had a heavy focus on finding good hedges betweens scraped data while my other v1 version was primarily focused on computing the odds you need to look for.
+I plan on doing a version 3 that will combine the more advanced math of v1 with the increased automation of v2
+
+Some online gambling sites offer a deposit match with a catch, you have to be X times the deposit to release the bonus. With sports betting there are times where the odds on two seperate sites are close to equal or even greater than equal (arbitrage opportunity.)
+
+For example, lets say Site A will offer a 100% bonus match on $100 but with a 5x playthrough to unlock the bonus.
+That means one must bet $500 before they can withdraw the extra $100. Lets say they can find bets where thet only lose 5%. Then thet would lose a total of 500\*.05 = 25 and then unlock the $100 bonus meaning they made $75.
+
+The only issue is these kinds of bets are hard to spot and it takes time
+
+Phase 1
+Planning:
+
+MVP
+-> Data
+Copy paste HTML (Caveman)
+
+-> Basic Processing - Site - Match Info (Teams, Date) - Odds (Moneyline for now)
+
+-> Generate Bets - Minimize loss on hedges for rollover fufillment bets - Print
+
+# V1
+
+See v1 folder
+
+# Output
 
 ### Insured Bet
 
@@ -75,34 +109,6 @@ $615.38 @ -160 on white sox+1.5
 
 Profit: 134.62
 
-# V2 Matching
-
-### RUN
-
-To run this simply run site_parser.py
-
-# Introduction
-
-This was version 2 of my attempt to automate betting. This had a heavy focus on finding good hedges betweens scraped data while my other v1 version was primarily focused on computing the odds you need to look for.
-I plan on doing a version 3 that will combine the more advanced math of v1 with the increased automation of v2
-
-Some online gambling sites offer a deposit match with a catch, you have to be X times the deposit to release the bonus. With sports betting there are times where the odds on two seperate sites are close to equal or even greater than equal (arbitrage opportunity.)
-
-For example, lets say Site A will offer a 100% bonus match on $100 but with a 5x playthrough to unlock the bonus.
-That means one must bet $500 before they can withdraw the extra $100. Lets say they can find bets where thet only lose 5%. Then thet would lose a total of 500\*.05 = 25 and then unlock the $100 bonus meaning they made $75.
-
-The only issue is these kinds of bets are hard to spot and it takes time
-
-Phase 1
-Planning:
-
-MVP
--> Data
-Copy paste HTML (Caveman)
-
--> Basic Processing - Site - Match Info (Teams, Date) - Odds (Moneyline for now)
-
--> Generate Bets - Minimize loss on hedges for rollover fufillment bets - Print
 
 # Commands to periodically update the html text for others to test with :)
 
