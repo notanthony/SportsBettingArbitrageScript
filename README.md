@@ -8,9 +8,6 @@ It is very barebones because I wanted to get it ready for the start of the NFL s
 
 # V2 Matching
 
-### RUN
-
-To run this simply run site_parser.py
 
 ### Introduction
 
