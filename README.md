@@ -1,5 +1,7 @@
 # Final Version
 
+### See Wiki for book keeping details
+
 By copy pasting in HTML data from the sites the parsers will convert it into matches with different betting lines. Then it will compare the different matches for the bets you want to place and return the best ones. I have anonymized the site data and removed the HTML. Because of this, this version will not actually run, but here is some sample output
 
 It is very barebones because I wanted to get it ready for the start of the NFL season (You can see my github history starting August 26 2022.) A lot of very lucrative promotions started at that time and so time was money :)
