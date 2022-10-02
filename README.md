@@ -5,44 +5,69 @@ By copy pasting in HTML data from the sites the parsers will convert it into mat
 ### Insured Bet
 
 moneyline
+
 Site 1 - 2022-10-02 13:00:00 - nfl - 2022-10-02 13:00:00 - ['jaguars', 'eagles']:
+
 $1000 @ +235 on jaguars
+
 Site 2 - 2022-10-02 13:00:00 - nfl - 2022-10-02 13:00:00 - ['jaguars', 'eagles']:
+
 $1923.97 @ -265 on eagles
+
 Profit: 426.03
+
 Efficency: 60.86%
 
 ### Normal Bet
 
 moneyline
+
 Site 1 - 2022-10-02 13:00:00 - nfl - 2022-10-02 13:00:00 - ['jaguars', 'eagles']:
+
 $19.4 @ -260 on eagles
+
 Site 2 - 2022-10-02 13:00:00 - nfl - 2022-10-02 13:00:00 - ['jaguars', 'eagles']:
+
 $8.14 @ +230 on jaguars
+
 Profit: -0.68
 
 ### Free Bet
 
 moneyline
+
 Site 1 - 2022-10-01 19:00:00 - ncaaf - 2022-10-01 19:00:00 - ['uab blazers', 'rice owls']:
+
 $600 @ +330 on rice owls
+
 Site 2 - 2022-10-01 19:00:00 - ncaaf - 2022-10-01 19:00:00 - ['uab blazers', 'rice owls']:
+
 $1540.00000000000 @ -350 on uab blazers
+
 Profit: 440.000000000000
+
 Efficency: 73.33%
+
 solve 600/0.23255813953488372 - 600 = x/0.7777777777777778
 
 ### Profit Boost
 
 Max bet of 250 with a 100% bonus
+
 b2_boost = ProfitBoostRules(250, bonus=1)
+
 b2 = ProfitBoostBet(250, profit_boost=b2_boost)
 
 spread
+
 Site 1 - 2022-10-02 16:00:00 - mlb - 2022-10-02 16:00:00 - ['white sox', 'padres']:
+
 $250 @ +150 on padres-1.5
+
 Site 2 - 2022-10-02 16:00:00 - mlb - 2022-10-02 16:00:00 - ['white sox', 'padres']:
+
 $615.38 @ -160 on white sox+1.5
+
 Profit: 134.62
 
 # V2 Matching
